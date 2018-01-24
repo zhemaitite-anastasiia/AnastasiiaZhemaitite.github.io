@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:700|Patua+One|Roboto+Condensed:700" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/info.css">
+  <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <title>Get Hired</title>
+
+</head>
+<body>
+
+	<div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <header class="masthead clearfix">
+            <div class="inner">
+              
+         
+            </div>
+          </header>
+
+       <div class="sectorInformation">
+         <div class="row">
+           <div class="col-lg-12">
+            <h1>Jobs By Sector</h1>
+            <h3>Please select one of the buttons below to find employment data by related sector</h3>  
+           </div>
+        </div>  
+     </div>      
+
+      <div class="sectorInformation">
+         <div class="row">
+           <div class="col-lg-12">
+           <a id="computer"><button type="button" class="btn btn-block">Computer Science, Information and Internet Technology</button></a>
+            <a id="engineer"><button type="button" class="btn btn-block">Engineering, Manufacturing and Transportation</button></a>
+           </div>
+        </div>  
+     </div>  
+
+      <div id="computerSci" class="container">
+        <div class="row">
+            <div class="col-lg-12">
+             <h1>Computer Science, Information and Internet Technology</h1> 
+            </div>
+          <div class="row">
+          <div class="col-lg-6">
+            <h2>Skills Needed</h2>
+            <li>knowledge of computer basics</li>
+            <li>programming</li>
+            <li>knowledge of current trends/new technologies</li>
+            <li>flexibility</li>
+            <li>collaboration</li>
+            <li>communication</li>
+            <li>interpersonal</li>
+            <li>project management</li>
+          </div>  
+          <div class="col-lg-6">
+            <h2>Jobs/Internship Options</h2>
+            <li>IT Analyst intern</li>
+            <li>Technical writing intern</li>
+            <li>Software engineering intern</li>
+            <li>Web Developer</li>
+            <li>Software Engineer</li>
+            <li>Computer Programmer</li> 
+          </div>
+         </div>
+          <div class="row">
+          <div class="col-lg-12"> 
+          <p>Computer science and information and internet technology describe broad fields related to the production, storage, and distribution of information. Computer scientists and information technologists are needed in every industry. In fact, most CS/IT jobs can be found in organizations that are not focused on computers. Within CS/IT, people generally work developing, installing, or implementing computer systems and programs. CS/IT offers a wide range of careers, and hiring companies range from small, specialized start-ups to large multi-faceted corporations.Those interested in computer science and information technology can fill roles ranging from the design and development of software, to the installation and maintenance of hardware, to the support of technology users. Because of the ever-changing nature of technology, these fields are constantly evolving. Currently, growth areas within CS/IT include cloud computing, information security, and device mobility.</p> 
+          </div>
+        </div>  
+        <div class="row">
+          <div class="col-xs-12">
+         <h2>Computer science, information and internet technology Sample Job Data</h2>
+         <p>This table contains sample salary information for job titles related to the Computer science, information and internet technology sector</p>
+         <table class="table">
+         <thead>
+           <tr>
+             <th>Company Name</th>
+             <th>Title</th>
+             <th>Salary Min</th>
+             <th>Salary Max</th>
+             <th>Location</th>    
+           </tr>
+           </thead>
+           <tbody id="results">  
+            <th id="company"></th>
+            <th id="title"></th>
+            <th id="SalaryMin"></th>
+            <th id="SalaryMax"></th>
+            <th id="Location"></th>      
+           </tbody>
+         </table>
+         <a id="resources" href="educational.html"><button type="button" class="btn btn-block">Additional Educational Resources</button></a> 
+         </div>
+        </div>
+       </div>  
+       </div> 
+     <div id="engineering" class="container">
+        <div class="row">
+          <div class="col-lg-12">
+          <h1>Engineering, Manufacturing and Transportation</h1>
+         </div>
+          <div class="row">
+          <div class="col-lg-6">
+          <h2>Skills Needed</h2>
+          <li>knowledge in math, science and engineering principles</li>
+          <li>conceptual, process improvement, functional and technical skills</li>
+          <li>critical thinking</li>
+          <li>Interpersonal</li>
+          <li>analytical thinking/problem solving</li>
+          <li>communication</li>
+        </div>
+          <div class="col-lg-6">
+          <h2>Jobs/Internship Options</h2>
+          <li>Manufacturing internship</li>
+          <li>Manufacturing engineer associate</li>
+          <li>Mechanical engineering internship</li>
+          <li>Engineer: Mechanical, Electrical, Materials</li>
+          <li>Data Specialist</li>
+          <li>Technician</li> 
+          </div>   
+        </div>
+        <div class="row">
+          <div class="col-lg-12"> 
+           <p>Engineering describes building solutions to engines, machines, structures or processes. Engineers apply mathematic, scientific, technical and design knowledge and skills to develop new processes or improve existing ones within businesses and government. Engineers may work individually or within teams to create solutions that are cost-effective and safe within a specified budget. Engineering is a large employment field that offers many specializations, and roles can vary from research and development to product design. All engineering specialties are experiencing job growth with many internship and employment opportunities available.</p>
+            <p>The manufacturing industry produces both durable and nondurable goods for consumption. Because manufacturing includes many complex processes, there is a broad spectrum of types of positions within the industry that are suitable for workers of varying skill levels. Within manufacturing you will find engineers, technicians, administrative and supervisory staff, production workers, quality control inspectors, sales representatives, and clerical support staff. Over the past several decades, manufacturing has grown increasingly automated, involving computers and robots. This shift in the industry has created additional opportunities for engineers, who are needed to program, install, and maintain automated machinery.</p>
+            <p>Transportation is the movement of people, animals and goods from one location to another. Modes of transport include air, rail, road, water, cable, pipeline and space. The field can be divided into infrastructure, vehicles and operations. Transport is important because it enables trade between people, which is essential for the development of civilizations.</p>
+          </div>
+         </div> 
+         <div class="row">
+          <div class="col-xs-12">
+         <h2>Engineering, Manufacturing and Transportation Sample Job Data</h2>
+         <p>This table contains sample salary information for job titles related to the Engineering, Manufacturing and Transportation sector</p>
+         <table class="table">
+         <thead>
+           <tr>
+             <th>Company Name</th>
+             <th>Title</th>
+             <th>Salary Min</th>
+             <th>Salary Max</th>
+             <th>Location</th>    
+           </tr>
+           </thead>
+           <tbody id="results">  
+            <th id="company2"></th>
+            <th id="title2"></th>
+            <th id="SalaryMin2"></th>
+            <th id="SalaryMax2"></th>
+            <th id="Location2"></th>      
+           </tbody>
+         </table>
+         <a id="resources" href="educational.html"><button type="button" class="btn btn-block">Additional Educational Resources</button></a>
+         </div>
+        </div>
+      </div>  
+    </div>  
+
+    <div id="dummyData"></div>
+
+      </div>  
+    </div>  
+  </div>  
+
+<script src="js/info.js"></script>
+  
+</body>
+</html>       
